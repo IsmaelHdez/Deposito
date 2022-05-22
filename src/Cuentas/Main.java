@@ -1,11 +1,11 @@
 package Cuentas;
 
 public class Main {
-
+//Metodo main
     public static void main(String[] args) {
         operativa_cuenta(null);
     }
-
+//Metodo de operacion de cuenta
     private static void operativa_cuenta(java.lang.Float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
